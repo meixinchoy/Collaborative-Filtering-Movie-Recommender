@@ -1,7 +1,7 @@
 # Collaborative-Filtering-Movie-Recommender
 
 ## About  
-This Collaborative Filtering Movie Recommender explores recommenders that uses matrix factorization techniques to generate recommendations. Here, SVD is used to predict the rating of a particular user for a particular movie. Two programs were created for this, both written in the Python programming language. The first set of code (svd-movie-prediction-and-recommendation.ipynb) is created to predict the ratings and generate recommendations for a particular user using SVD while the second set of code (svd-movie-prediction-evaluation.ipynb) is created to evaluate the accuracy of the prediction made by the first program using cross validation. Parameter tuning is also demonstrated in ```svd-movie-prediction-evaluation.ipynb```.
+This Collaborative Filtering Movie Recommender explores recommenders that uses matrix factorization techniques to generate recommendations. Here, SVD is used to predict the rating of a particular user for a particular movie. Two programs were created for this, both written in the Python programming language. The first set of code ```svd-movie-prediction-and-recommendation.ipynb``` is created to predict the ratings and generate recommendations for a particular user using SVD while the second set of code ```svd-movie-prediction-evaluation.ipynb``` is created to evaluate the accuracy of the prediction made by the first program using cross validation. Parameter tuning is also demonstrated in ```svd-movie-prediction-evaluation.ipynb```.
 
 Dataset: [MovieLens 20M Dataset](https://www.kaggle.com/grouplens/movielens-20m-dataset)
 
