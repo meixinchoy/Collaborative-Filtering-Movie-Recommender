@@ -19,6 +19,14 @@ Cross-validation is a resampling procedure used to evaluate machine learning mod
 
 Using 10-fold cross validation, the given data sample is split into 10 subsamples to evaluate the model. Out of the ten subsamples, nine of the subsamples are used as training data whereas the remaining subsample is used as the test data to test the model. The cross-validation process is repeated for ten times with each of the 10 subsamples being used as test data exactly once. 
 
+## FIles
+* ```svd-movie-prediction-and-recommendation.ipynb``` 
+** Predict ratings for specific users using SVD
+** Recommend movies with a high prediction rating
+* ```svd-movie-prediction-evaluation.ipynb```
+** Evaluate accuracy of SVD model using RMSE and cross validation
+** Parameter tuning to obtain optimal parameters to maximize RMSE
+
 ## Packages used
 * [Scikit Learn](https://scikit-learn.org/stable/)
 * [Surprise](https://surprise.readthedocs.io/en/stable/)
