@@ -18,6 +18,8 @@ In this prototype, the matrix factorization used is Singular Vector Decompositio
 Cross-validation is a resampling procedure used to evaluate machine learning models on a limited data sample. The procedure has a single parameter called k that refers to the number of groups that a given data sample is to be split into. As such, the procedure is often called k-fold cross-validation. learn more about cross validaion [here](https://machinelearningmastery.com/k-fold-cross-validation/#:~:text=Cross%2Dvalidation%20is%20a%20resampling,k%2Dfold%20cross%2Dvalidation.)
 
 Using 10-fold cross validation, the given data sample is split into 10 subsamples to evaluate the model. Out of the ten subsamples, nine of the subsamples are used as training data whereas the remaining subsample is used as the test data to test the model. The cross-validation process is repeated for ten times with each of the 10 subsamples being used as test data exactly once. 
+![image](https://user-images.githubusercontent.com/65379600/131431054-3956bb8a-1d01-4c26-9bbc-23d05b9cd85a.png)
+
 
 ## FIles
 * ```svd-movie-prediction-and-recommendation.ipynb```   
