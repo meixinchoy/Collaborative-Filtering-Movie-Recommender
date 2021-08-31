@@ -21,11 +21,11 @@ Using 10-fold cross validation, the given data sample is split into 10 subsample
 
 ## FIles
 * ```svd-movie-prediction-and-recommendation.ipynb```   
-** Predict ratings for specific users using SVD   
-** Recommend movies with a high prediction rating    
-* ```svd-movie-prediction-evaluation.ipynb```
-** Evaluate accuracy of SVD model using RMSE and cross validation    
-** Parameter tuning to obtain optimal parameters to maximize RMSE    
+  * Predict ratings for specific users using SVD   
+  * Recommend movies with a high prediction rating    
+* ```svd-movie-prediction-evaluation.ipynb```      
+  * Evaluate accuracy of SVD model using RMSE and cross validation    
+  * Parameter tuning to obtain optimal parameters to maximize RMSE    
 
 ## Packages used
 * [Scikit Learn](https://scikit-learn.org/stable/)
